@@ -1,0 +1,193 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/moon.css">
+
+	<!-- font-awesome refrence -->
+	<link rel="stylesheet" href="plugin	/font-awesome/css/font-awesome.min.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+	<style>
+		@font-face {
+			font-family: Samim;
+			src: url('lib/font/samim-font/Samim.eot');
+			src: url('lib/font/samim-font/Samim.eot?#iefix') format('embedded-opentype'),
+			url('lib/font/samim-font/Samim.woff') format('woff'),
+			url('lib/font/samim-font/Samim.ttf') format('truetype');
+			font-weight: normal;
+		}
+
+		@font-face {
+			font-family: Samim;
+			src: url('lib/font/samim-font/Samim-Bold.eot');
+			src: url('lib/font/samim-font/Samim-Bold.eot?#iefix') format('embedded-opentype'),
+			url('lib/font/samim-font/Samim-Bold.woff') format('woff'),
+			url('lib/font/samim-font/Samim-Bold.ttf') format('truetype');
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section></section>
+			<section data-background-image="img/cloud.jpg" data-background-transition="zoom">
+				<h4 style="color:#000000" class="fragment fade-up"><b>توسعه نوین وب</b></h4>
+				<br><br><br><br>
+			</section>
+			<section data-background-image="img/microsoft.jpeg" data-background-size="300px" data-background-repeat="repeat" data-background-transition="zoom">
+				<i class="fa fa-quote-right fa-2x fa-pull-right" aria-hidden="true"></i>
+				<h2 align="right">فریم‌ورک توسعه وب</h2>
+				<h3 align="right">با قابلیت های:</h3>
+				<div class="list-group" align="right"><b>
+						<p class="list-group-item fragment fade-up"><i class="fa fa-bolt fa-fw"></i>&nbsp; سبک و سریع</p>
+						<p class="list-group-item fragment fade-up"><i class="fa fa-cogs fa-fw"></i>&nbsp; توسعه‌بین‌سیستم‌عامل‌های‌مختلف</p>
+						<p class="list-group-item fragment fade-up"><i class="fa fa-code fa-fw"></i> انتشار سریع و راحت</p>
+					</b>
+				</div>
+				<img src="img/aspnetcore.png" class="fragment fade-up" style="height:230px; width:auto;">
+			</section>
+			<section data-background-image="img/ASP.NET-Core.png" data-background-size="200px" data-background-repeat="repeat" data-background-transition="zoom">
+				<h2>مرور و بررسی تکنولوژی جدید <b>مایکروسافت</b></h2>
+				<img src="img/Asp-core.png" style="height:280px; width:auto;">
+				<br>
+				<br>
+				<br>
+				<div style="border-radius: 25px;
+				background: #000000;
+				opacity: 0.5;
+				width: 400px;
+				height: 140px;
+				position: fixed;
+				bottom: 0;
+				left: 0;">
+					<p>
+						<font size="6">ارائه توسط: <b>اشکان رحمانی</b></font>
+						<a href="http://ashkanam.ir/">
+							<font size="6">
+								<b>http://ashkanam.ir</b>
+								<i class="fa fa-rss" aria-hidden="true"></i></a>
+						</font>
+					</p>
+				</div>
+
+			</section>
+			<section data-transition="zoom" data-background-transition="zoom">
+				<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+				<span class="sr-only">Loading...</span> اشکان رحمانی
+				<pre><code data-trim class="csharp">
+						namespace vega.Persistence
+						{
+							public class VehicleRepository : IVehicleRepository
+							{
+								private readonly VegaDbContext context;
+								public VehicleRepository(VegaDbContext context)
+								{
+									this.context = context;
+						
+								}
+							}
+						}
+						</code></pre>
+			</section>
+			<section data-background-color="#4a148c" data-background-transition="zoom">
+				<h2>واژه فلسفه</h2>
+
+				<p>واژه فلسفه (philosophy) یا فیلوسوفیا که کلمه ای یونانی است، از دو بخش تشکیل شده است:<br>
+					<b>فیلو</b> به معنی دوستداری و <b>سوفیا</b> به معنی دانایی.</p>
+				<p>اولین کسی که این کلمه را به کار برد، فیثاغورس بود. وقتی از او سئوال کردند که: آیا تو فرد دانایی هستی؟ جواب داد:<br>
+					<i>نه، اما دوستدار دانایی(فیلوسوفر) هستم.</i></p>
+				<p>بنابراین فلسفه از اولین روز پیدایش به معنی <b>عشق ورزیدن به دانایی، تفکر و فرزانگی</b> بوده است.
+				</p>
+			</section>
+			<section data-transition="slide-in fade-out" data-autoslide="1000">
+				<p class="fragment grow">grow</p>
+				<p class="fragment shrink">shrink</p>
+				<p class="fragment fade-out">fade-out</p>
+				<p class="fragment fade-up">fade-up (also down, left and right!)</p>
+				<p class="fragment current-visible">visible only once</p>
+				<p class="fragment highlight-current-blue">blue only once</p>
+				<p class="fragment highlight-red">highlight-red</p>
+				<p class="fragment highlight-green">highlight-green</p>
+				<p class="fragment highlight-blue">highlight-blue</p>
+			</section>
+			<section>
+				<span class="fragment fade-in">
+						<span class="fragment fade-out">I'll fade in, then out</span>
+				</span>
+				<p class="fragment highlight-current-blue">blue only once</p>
+				<p class="fragment highlight-current-blue">blue only once</p>
+				<p class="fragment highlight-current-blue">blue only once</p>
+			</section>
+			<section>
+				<p>فلسفه نظری به علم الهیات، ریاضیات و طبیعیات تقسیم می‌گشت که به ترتیب، علم اعلی(بالاتر)، علم اوسط(وسط) و علم اسفل(پایین
+					تر) نامیده می شد.</p>
+				<p>فلسفه عملی نیز از سه قسمت تشکیل می شد:</p>
+				<ul>
+					<li><b>اخلاق</b></li>
+					<li><b>تدبیر منزل</b></li>
+					<li><b>سیاست مدن (شهرها) (اصول حکومت کردن)</b></li>
+					<p>اخلاق در رابطه با تدبیر امور شخصی انسان بود. تدبیر منزل در رابطه با تدبیر امور خانواده بود و سیاست مدن یا همان حکومت
+						داری به تدبیر امور مملکت ربط داشت.</p>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.js"></script>
+
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			rtl: true,
+			dependencies: [{
+					src: 'plugin/markdown/marked.js'
+				},
+				{
+					src: 'plugin/markdown/markdown.js'
+				},
+				{
+					src: 'plugin/notes/notes.js',
+					async: true
+				},
+				// Zoom in and out with Alt+click
+				{
+					src: 'plugin/zoom-js/zoom.js',
+					async: true
+				},
+				{
+					src: 'plugin/highlight/highlight.js',
+					async: true,
+					callback: function () {
+						hljs.initHighlightingOnLoad();
+					}
+				}
+			]
+		});
+		Reveal.configure({
+			slideNumber: 'c/t'
+		});
+	</script>
+</body>
+
+</html>
