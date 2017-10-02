@@ -1,5 +1,5 @@
 # ASP.NET Core presentaion slides
 
-> maked with reveal.js (HTML,CSS,JS)
+> maked with [reveal.js](https://github.com/hakimel/reveal.js/) (HTML,CSS,JS)
 
-[click here for starting the slideshow.] (https://ashkan-rmk.github.io/asp-net-presentation)
+[click here for starting the slideshow.](https://ashkan-rmk.github.io/asp-net-presentation)
