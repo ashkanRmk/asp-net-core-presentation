@@ -1,6 +1,6 @@
 # :speech_balloon: ASP.NET Core presentaion slides
 
-> Made with [reveal.js](https://github.com/hakimel/reveal.js/)
+> Made with [reveal.js](https://github.com/hakimel/reveal.js/).
 A framework for easily creating beautiful presentations using HTML, CSS and Javascript.
 
 
