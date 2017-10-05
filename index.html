@@ -69,15 +69,14 @@
 				<img src="img/aspnetcore.png" class="fragment fade-up" style="height:230px; width:auto;">
 			</section>
 			<section data-background-image="img/ASP.NET-Core.png" data-background-size="200px" data-background-repeat="repeat" data-background-transition="zoom">
-				<div>
-					<img src="img/LargeLogo.JPG" style="height:200px; width:auto; float:left;">
-					<h2 style=" position: relative; top: 18px; left: 10px;">مرور و بررسی تکنولوژی جدید <b>مایکروسافت</b></h2>
-				</div>
-				<img src="img/Asp-core.png" style="height:250px; width:auto;">
+				<img src="img/LargeLogo.png" style="height:auto; width:300px; float:left; "><br><br>
+				<h3 align="center">مرور و بررسی تکنولوژی جدید <b>مایکروسافت</b></h3>
+				<img src="img/Asp-core.png" style="height:200px; width:auto;">
 				<br><br><br>
-				<div class="left-box">
-					<p>
-						<font size="6">ارائه توسط: <b>اشکان رحمانی</b></font>
+				<div class="right-box">
+					<p style="line-height: 75%">
+						<font size="6" style="align-items:flex-start"> <b>اشکان رحمانی</b></font><br>
+						<font size="4">دانشجوی کارشناسی مهندسی فناوری‌اطلاعات</font>
 						<a href="http://ashkanam.ir/">
 							<font size="6">
 								<b>http://ashkanam.ir</b>
@@ -85,13 +84,13 @@
 						</font>
 					</p>
 				</div>
-				<div class="right-box">
+				<img src="img/profile.jpg" style="border-radius: 50%; height:150px; width: auto; position: fixed; bottom: 0; right: 0;">
+				<div class="left-box">
 					<p>
-						<font size="6">ارائه به: <b>مهندس بهزاد بختیاری</b></font><br>
+						<font size="6"> درس <b>شیوه پژوهش و ارائه</b></font><br>
 						<font size="6"><i class="fa fa-calendar"></i> زمان: <b>25 آذر ماه</b></font>
 					</p>
 				</div>
-
 			</section>
 			<section data-background-image="img/Abstract_Dark9.jpg" data-background-transition="zoom">
 				<h3 align="right"><i class="fa fa-comments-o fa-2x"></i><b> آنچه خواهیم گفت:</b></h3><br>
@@ -195,6 +194,14 @@
 					callback: function () {
 						hljs.initHighlightingOnLoad();
 					}
+				},
+				{
+					src: 'http://localhost:3001/socket.io/socket.io.js',
+					async: true
+				},
+				{
+					src: 'plugin/remote-control/remote.js',
+					async: true
 				}
 			]
 		});

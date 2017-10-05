@@ -23,11 +23,11 @@
   border-radius: 25px;
   background: #000000;
   opacity: 0.5;
-  width: 405px;
+  width: 400px;
   height: 140px;
   position: fixed;
   bottom: 0;
-  right: 0;
+  right: 110px;
 }
 
 .menu {
