@@ -1,0 +1,13 @@
+https://medium.com/@Helios_Solution/why-asp-net-core-mvc-is-so-popular-for-developing-modern-web-apps-8f47b877f439
+
+https://medium.com/@codingblast/why-you-should-join-net-core-and-asp-net-core-train-b57c357672e6
+
+https://medium.com/@ipeo/why-should-you-consider-using-asp-net-core-edcc4ff39877
+
+https://github.com/dotnet/standard/blob/master/docs/faq.md
+
+https://www.techempower.com/benchmarks/#section=data-r14&hw=ph&test=plaintext
+
+https://www.similartech.com/compare/asp-net-vs-laravel
+
+https://github.com/aspnet/benchmarks#plain-text-with-http-pipelining
