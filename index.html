@@ -97,8 +97,8 @@
 				<div class="list-group menu" align="right">
 					<font size="6">
 						<div class="fragment fade-left">
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; مروری بر نسخه‌های پیشین</p>
 							<p class="list-group-item "><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ASP.NET Core چیست؟</p>
-							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; مقایسه‌ با نسخه‌های پیشین</p>
 							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; چرا باید از ASP.NET Core استفاده کرد؟</p>
 							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ساختار برنامه‌ها</p>
 							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; راه‌اندازی</p>
@@ -115,37 +115,74 @@
 						</div>
 					</font>
 				</div><br><br><br>
-				<br>
-				<br>
-				<h1>as</h1>
 			</section>
 			<section data-transition="zoom" data-background-transition="zoom">
-				<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
-				<span class="sr-only">Loading...</span> اشکان رحمانی
-				<pre><code data-trim class="csharp">
-						namespace vega.Persistence
-						{
-							public class VehicleRepository : IVehicleRepository
-							{
-								private readonly VegaDbContext context;
-								public VehicleRepository(VegaDbContext context)
-								{
-									this.context = context;
-						
-								}
-							}
-						}
-						</code></pre>
+				<h3 align="right"><i class="fa fa-angle-double-up"></i><b> روند تکامل نسل‌ها:</b></h3>
+				<img src="img/aspnet.png" align="left"><br>
+				<hr>
+				<br><br>
+				<h2 class="fragment fade-up">WebForms</h2>
+				<h2 class="fragment fade-up">MVC</h2>
+				<h2 class="fragment fade-up">Core</h2>
 			</section>
 			<section data-background-color="#4a148c" data-background-transition="zoom">
-				<h2>واژه فلسفه</h2>
-
-				<p>واژه فلسفه (philosophy) یا فیلوسوفیا که کلمه ای یونانی است، از دو بخش تشکیل شده است:<br>
-					<b>فیلو</b> به معنی دوستداری و <b>سوفیا</b> به معنی دانایی.</p>
-				<p>اولین کسی که این کلمه را به کار برد، فیثاغورس بود. وقتی از او سئوال کردند که: آیا تو فرد دانایی هستی؟ جواب داد:<br>
-					<i>نه، اما دوستدار دانایی(فیلوسوفر) هستم.</i></p>
-				<p>بنابراین فلسفه از اولین روز پیدایش به معنی <b>عشق ورزیدن به دانایی، تفکر و فرزانگی</b> بوده است.
-				</p>
+				<div align="left">
+					<h2 style="float:left">asp.net</h2>
+					<p>WebForms</p>
+				</div>
+				<hr>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-check"></i><b> مزایا:</b></h3>
+					<div class="list-group" align="right">
+						<p>
+							ساختار شبیه به نرم‌افزارهای تحت ویندوز
+						</p>
+						<p>توسعه سریع نرم‌افزار</p>
+					</div>
+				</div>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-exclamation"></i><b> مشکلات:</b></h3>
+					<div class="list-group" align="right">
+						<font size="6">
+							<p>
+								ساختاری برپایه رویدادها Event-Driven
+							</p>
+							<p>از کنترل خارج‌شدن صفحات خروجی HTML</p>
+							<p>افت بازدهی و سنگین‌شدن برنامه</p>
+							<p>غیرممکن شدن عملیات Unit Testing</p>
+						</font>
+					</div>
+				</div>
+			</section>
+			<section data-background-color="#4a148c" data-background-transition="zoom">
+				<div align="left">
+					<h2 style="float:left">asp.net</h2>
+					<p>MVC</p>
+				</div>
+				<hr>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-check"></i><b> مزایا:</b></h3>
+					<div class="list-group" align="right">
+						<font size="6">
+							<p>
+								استفاده از معماری نرم‌افزاری Model - View - Controller
+							</p>
+							<p>امکان مدیریت و کنترل خروجی تولید شده</p>
+							<p>امکان یکپارچه‌سازی با فریم‌ورک‌های سمت کلاینت</p>
+						</font>
+					</div>
+				</div>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-exclamation"></i><b> مشکلات:</b></h3>
+					<div class="list-group" align="right">
+						<font size="6">
+							<p>
+								سنگین بودن حجم DotNet FrameWork
+							</p>
+							<p>متکی بودن به سیستم‌عامل ویندوز برای توسعه و انتشار</p>
+						</font>
+					</div>
+				</div>
 			</section>
 			<section data-transition="slide-in fade-out" data-autoslide="1000">
 				<p class="fragment grow">grow</p>

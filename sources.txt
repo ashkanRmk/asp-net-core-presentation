@@ -11,3 +11,5 @@ https://www.techempower.com/benchmarks/#section=data-r14&hw=ph&test=plaintext
 https://www.similartech.com/compare/asp-net-vs-laravel
 
 https://github.com/aspnet/benchmarks#plain-text-with-http-pipelining
+
+https://insights.stackoverflow.com/survey/2017#most-popular-technologies
