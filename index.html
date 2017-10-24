@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="fa">
 
 <head>
 	<meta charset="utf-8">
@@ -69,7 +69,7 @@
 				<img src="img/aspnetcore.png" class="fragment fade-up" style="height:230px; width:auto;">
 			</section>
 			<section data-background-image="img/ASP.NET-Core.png" data-background-size="200px" data-background-repeat="repeat" data-background-transition="zoom">
-				<img src="img/LargeLogo.png" style="height:auto; width:300px; float:left; "><br><br>
+				<img src="img/LargeLogo.png" style="height:auto; width:300px; float:left;"><br><br>
 				<h3 align="center">مرور و بررسی تکنولوژی جدید <b>مایکروسافت</b></h3>
 				<img src="img/Asp-core.png" style="height:200px; width:auto;">
 				<br><br><br>
@@ -88,7 +88,7 @@
 				<div class="left-box">
 					<p>
 						<font size="6"> درس <b>شیوه پژوهش و ارائه</b></font><br>
-						<font size="6"><i class="fa fa-calendar"></i> زمان: <b>25 آذر ماه</b></font>
+						<font size="6"><i class="fa fa-calendar"></i> زمان: <b>۸ آبان ماه</b></font>
 					</p>
 				</div>
 			</section>
@@ -96,50 +96,93 @@
 				<h3 align="right"><i class="fa fa-comments-o fa-2x"></i><b> آنچه خواهیم گفت:</b></h3><br>
 				<div class="list-group menu" align="right">
 					<font size="6">
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ASP.NET Core چیست؟</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; چرا باید از ASP.NET Core استفاده کرد؟</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; مقایسه‌ با نسخه‌های پیشین</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ساختار برنامه‌ها</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; راه‌اندازی</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; سرویس‌ها</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; سرور‌ها</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ریشه محتوا و وب</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; پیکربندی</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; محیط‌ها</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; توسعه‌سمت‌کلاینت</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; نتیجه‌گیری</p>
-						<p class="list-group-item fragment fade-left"><i class="fa fa-check-circle-o fa-fw"></i> منابع</p>
-						<p class="">START <i class="fa fa-hand-o-left fa-4x"></i></p>
+						<div class="fragment fade-left">
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; مروری بر نسخه‌های پیشین</p>
+							<p class="list-group-item "><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ASP.NET Core چیست؟</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; چرا باید از ASP.NET Core استفاده کرد؟</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ساختار برنامه‌ها</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; راه‌اندازی</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; سرویس‌ها</p>
+						</div>
+						<div class="fragment fade-left">
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; سرور‌ها</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; ریشه محتوا و وب</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; پیکربندی</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; محیط‌ها</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; توسعه‌سمت‌کلاینت</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i>&nbsp; نتیجه‌گیری</p>
+							<p class="list-group-item"><i class="fa fa-check-circle-o fa-fw"></i> منابع</p>
+						</div>
 					</font>
-				</div>
+				</div><br><br><br>
 			</section>
 			<section data-transition="zoom" data-background-transition="zoom">
-				<i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
-				<span class="sr-only">Loading...</span> اشکان رحمانی
-				<pre><code data-trim class="csharp">
-						namespace vega.Persistence
-						{
-							public class VehicleRepository : IVehicleRepository
-							{
-								private readonly VegaDbContext context;
-								public VehicleRepository(VegaDbContext context)
-								{
-									this.context = context;
-						
-								}
-							}
-						}
-						</code></pre>
+				<h3 align="right"><i class="fa fa-angle-double-up"></i><b> روند تکامل نسل‌ها:</b></h3>
+				<img src="img/aspnet.png" align="left"><br>
+				<hr>
+				<br><br>
+				<h2 class="fragment fade-up">WebForms</h2>
+				<h2 class="fragment fade-up">MVC</h2>
+				<h2 class="fragment fade-up">Core</h2>
 			</section>
 			<section data-background-color="#4a148c" data-background-transition="zoom">
-				<h2>واژه فلسفه</h2>
-
-				<p>واژه فلسفه (philosophy) یا فیلوسوفیا که کلمه ای یونانی است، از دو بخش تشکیل شده است:<br>
-					<b>فیلو</b> به معنی دوستداری و <b>سوفیا</b> به معنی دانایی.</p>
-				<p>اولین کسی که این کلمه را به کار برد، فیثاغورس بود. وقتی از او سئوال کردند که: آیا تو فرد دانایی هستی؟ جواب داد:<br>
-					<i>نه، اما دوستدار دانایی(فیلوسوفر) هستم.</i></p>
-				<p>بنابراین فلسفه از اولین روز پیدایش به معنی <b>عشق ورزیدن به دانایی، تفکر و فرزانگی</b> بوده است.
-				</p>
+				<div align="left">
+					<h2 style="float:left">asp.net</h2>
+					<p>WebForms</p>
+				</div>
+				<hr>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-check"></i><b> مزایا:</b></h3>
+					<div class="list-group" align="right">
+						<p>
+							ساختار شبیه به نرم‌افزارهای تحت ویندوز
+						</p>
+						<p>توسعه سریع نرم‌افزار</p>
+					</div>
+				</div>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-exclamation"></i><b> مشکلات:</b></h3>
+					<div class="list-group" align="right">
+						<font size="6">
+							<p>
+								ساختاری برپایه رویدادها Event-Driven
+							</p>
+							<p>از کنترل خارج‌شدن صفحات خروجی HTML</p>
+							<p>افت بازدهی و سنگین‌شدن برنامه</p>
+							<p>غیرممکن شدن عملیات Unit Testing</p>
+						</font>
+					</div>
+				</div>
+			</section>
+			<section data-background-color="#4a148c" data-background-transition="zoom">
+				<div align="left">
+					<h2 style="float:left">asp.net</h2>
+					<p>MVC</p>
+				</div>
+				<hr>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-check"></i><b> مزایا:</b></h3>
+					<div class="list-group" align="right">
+						<font size="6">
+							<p>
+								استفاده از معماری نرم‌افزاری Model - View - Controller
+							</p>
+							<p>امکان مدیریت و کنترل خروجی تولید شده</p>
+							<p>امکان یکپارچه‌سازی با فریم‌ورک‌های سمت کلاینت</p>
+						</font>
+					</div>
+				</div>
+				<div class="fragment fade-left">
+					<h3 align="right"><i class="fa fa-exclamation"></i><b> مشکلات:</b></h3>
+					<div class="list-group" align="right">
+						<font size="6">
+							<p>
+								سنگین بودن حجم DotNet FrameWork
+							</p>
+							<p>متکی بودن به سیستم‌عامل ویندوز برای توسعه و انتشار</p>
+						</font>
+					</div>
+				</div>
 			</section>
 			<section data-transition="slide-in fade-out" data-autoslide="1000">
 				<p class="fragment grow">grow</p>
