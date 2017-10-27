@@ -10,8 +10,7 @@
 
 .left-box {
   border-radius: 25px;
-  background: #000000;
-  opacity: 0.5;
+  background-color:rgba(0, 0, 0, 0.5);
   width: 400px;
   height: 140px;
   position: fixed;
@@ -19,10 +18,14 @@
   left: 0;
 }
 
+.box {
+  border-radius: 25px;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
 .right-box {
   border-radius: 25px;
-  background: #000000;
-  opacity: 0.5;
+  background-color:rgba(0, 0, 0, 0.5);  
   width: 400px;
   height: 140px;
   position: fixed;
