@@ -6,6 +6,8 @@ A framework for easily creating beautiful presentations using HTML, CSS and Java
 
 :movie_camera: [click here for starting the slideshow.](https://ashkan-rmk.github.io/asp-net-presentation)
 
+![Shot](./img/shot.png)
+
 ### keyboard shortcuts are:
 
 - <kbd>N</kbd>, <kbd>SPACE</kbd>:	Next slide
