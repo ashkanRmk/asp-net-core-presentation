@@ -4,7 +4,7 @@
 A framework for easily creating beautiful presentations using HTML, CSS and Javascript.
 
 
-:movie_camera: [click here for starting the slideshow.](https://ashkanrmk.github.io/asp-net-presentation)
+:movie_camera: [click here for starting the slideshow.](https://ashkanrmk.github.io/asp-net-core-presentation)
 
 ![Shot](./img/shot.png)
 
